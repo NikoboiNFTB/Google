@@ -6,7 +6,7 @@
 ! Source: https://google.nikoboi.dev/blocklist.txt
 ! Issues: https://github.com/NikoboiNFTB/Google/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/Google/pulls
-! Last updated: 2026-03-12 09:53 UTC+02:00
+! Last updated: 2026-03-18 15:32 UTC+02:00
 ! Expires: 7 days
 
 ! ========================================
@@ -14,7 +14,9 @@
 ! ========================================
 
 ! "Log in with Google" prompt on all websites.
-||accounts.google.com/gsi/*$xhr,script,3p
+||accounts.google.com/gsi/*$3p
+! ##.credential_picker_container
+! ##.google-one-tap
 
 ! ========================================
 ! End of Filters
